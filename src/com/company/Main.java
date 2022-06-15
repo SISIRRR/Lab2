@@ -1,13 +1,9 @@
 package com.company;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Main {
-    private static final Logger log = LoggerFactory.getLogger(Tasks.class);
     public static void main(String[] args) throws FileNotFoundException {
         System.out.println("введите 1 для режима работы ввода параметров задач" +
                 " с клавиатуры или 2 для ввода параметров с файла");
